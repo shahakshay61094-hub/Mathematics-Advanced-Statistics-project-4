@@ -1,0 +1,141 @@
+1. What is Statistical Distribution?
+: Definition 
+
+A statistical distribution describes how the values of a variable are spread or distributed across different possible outcomes.
+
+: Intuition
+
+It tells:
+
+: Which values are common
+: Which are rare
+: Shape of data (normal, skewed, etc.)
+
+: Example
+Income distribution → Most people earn average, few earn very high
+
+2. What is a Q-Q Plot and why is it used?
+: Definition
+
+A Q-Q (Quantile-Quantile) Plot compares the quantiles of your data with a theoretical distribution (usually normal).
+
+: Why used?
+To check normality of data
+
+: Interpretation
+Straight line → Data is normal
+Curve/Deviation → Not normal
+
+3. Difference between Discrete and Continuous Distributions ?
+
+Feature	          Discrete	              Continuous
+Values	          Countable (0,1,2…)	      Infinite (any value)
+Example	          Number of transactions      Transaction amount
+Distribution	  Binomial, Poisson	      Normal, Log-normal
+
+4. What is Bernoulli Distribution?
+: Definition
+
+A Bernoulli distribution models a random experiment with only two outcomes:
+
+: Success (1)
+: Failure (0)
+
+: Example
+Transaction happens or not
+Loan approved or rejected
+
+5. What is Binomial Distribution?
+: Definition
+
+A Binomial distribution models the number of successes in n independent Bernoulli trials.
+
+: Example
+Number of successful transactions in a week
+
+: Key Idea
+Fixed trials (n)
+Same probability (p)
+
+6. Explain Log-Normal Distribution
+: Definition
+
+A variable is log-normally distributed if its logarithm follows a normal distribution.
+
+: Intuition
+Data is right-skewed
+Many small values, few very large values
+
+: Example
+Transaction amounts
+Income
+
+7. Explain Power Law Distribution
+: Definition
+
+A Power Law distribution describes data where:
+
+Small values are very common
+Large values are rare but very significant
+: Intuition
+
+“Few big, many small”
+
+: Example
+Wealth distribution
+Big financial transactions
+
+8. What is Box-Cox Transform?
+: Definition
+
+A Box-Cox transformation is used to make data:
+
+More normal
+Stabilize variance
+: Why used?
+Many statistical models assume normality
+: Key Idea
+
+It applies a power transformation using a parameter λ (lambda)
+
+9. Explain Poisson Distribution with Example
+: Definition
+
+A Poisson distribution models the number of events happening in a fixed interval.
+
+: Intuition
+Events occur randomly but with a constant average rate
+
+: Example
+Number of transactions per day
+Number of customer arrivals
+
+10. What is Z-score Probability?
+: Definition
+
+A Z-score measures how far a value is from the mean in terms of standard deviations.
+
+: Formula
+
+Z = \frac{X - \mu}{\sigma}
+
+: Interpretation
+Z = 0 → Mean
+Z > 0 → Above mean
+Z < 0 → Below mean
+
+: Use
+Finding probabilities
+Detecting outliers
+
+11. Difference between PDF and CDF
+
+: PDF (Probability Density Function)
+: Gives probability density
+: Used for continuous variables
+: Area under curve = probability
+
+: CDF (Cumulative Distribution Function)
+: Gives cumulative probability
+: Probability that X ≤ value
+
